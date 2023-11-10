@@ -1,6 +1,12 @@
 body
 {
-	background-image:url('img/carrot_background.svg');
+	background-image:url('../img/carrot_background.svg');
+}
+
+#logo
+{
+	height:100px;
+	width:300px;
 }
 
 #copyright
