@@ -3,12 +3,6 @@ body
 	background-image:url('img/carrot_background.svg');
 }
 
-#logo
-{
-	height:20px;
-	width:60px;
-}
-
 #copyright
 {
 	color:#333333;
