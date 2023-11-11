@@ -1,9 +1,7 @@
 body
 {
 	background-image:url('../img/carrot_background.svg');
-	background-size:20% 20%;
-	position:relative;
-	z-index:0;
+	background-size:150px 150px;
 }
 
 #copyright
