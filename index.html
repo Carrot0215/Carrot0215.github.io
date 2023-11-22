@@ -6,7 +6,6 @@
 	<link href="img/logo.ico" rel="shortcut icon" />
 	<link href="css/default.css" rel="stylesheet" type="text/css" />
 	<script src="js/datetime.js"></script>
-	<script src="js/playpause.js"></script>
 	<meta charset="utf-8" />
 	<meta name="author" content="萝卜" />
 	<meta name="descrption" content="该blog收录了萝卜个人的学习笔记及兴趣爱好相关内容" />
@@ -22,32 +21,49 @@
 				</h1>
 			</a>
 			<a class="menu-list" href="index.html">首页</a>
-			<a class="menu-list">笔记</a>
-			<a class="menu-list">资料</a>
-			<a class="menu-list">休闲</a>
-			<a class="menu-list">群聊</a>
-			<a class="menu-list">第一</a>
-			<a class="menu-list">第一</a>
+			<a class="menu-list" id="note">笔记</a>
+			<a class="menu-list" id="file">资料</a>
+			<a class="menu-list" id="tool">工具</a>
+			<a class="menu-list" id="chat">群聊</a>
+			<a class="menu-list" id="photo">图片</a>
+			<a class="menu-list" id="music">音乐</a>
+			<a class="menu-list" id="movie">电影</a>
 		</div>
 		<div id="menu-middle">
-			<img id="playpause" title="播放/暂停" height="10px" width="10px" src="img/play.png" onclick="playpause()" />
+			<audio id="musicplayer"></audio>
+			<div id="playbuttons">
+				<img id="previous" title="上一首" height="20px" width="20px" src="img/previous.png" />
+				<img id="playpause" title="播放/暂停" height="20px" width="20px" src="img/play.png" onclick="playpause()" />
+				<img id="next" title="下一首" height="20px" width="20px" src="img/next.png" />
+			</div>
 			<div id="playbar">
 				<div id="playbarback"></div>
 				<div id="playbarnow"><img id="playanchor" src="img/playanchor.png" /></div>
 			</div>
+			<div id="songtime">
+				<div id="currenttime">00:00</div>
+				<div>&nbsp;/&nbsp;</div>
+				<div id="totaltime">00:00</div>
+			</div>
+			<div id="songinfo">
+				<div id="songtitle">歌名</div></br>
+				<div id="singer">歌手名</div></br>
+				<div id="album">专辑名</div>
+			</div>
+			<script src="js/playmusic.js"></script>
 		</div>
 		<div id="menu-right"><a id="datetime" title="查看国际标准时间网站" href="https://www.timeanddate.com/"></a></div>
 	</div>
-	<div style="height:50px"></div>
 	<div id="background">
-		<h1>test</h1>
-		<h2>test</h2>
-		<h3>test</h3>
-		<h4>test</h4>
-		<h5>test</h5>
-		<div id="copyright">
-			<h6>Copyright&copy;萝卜&nbsp;2023, All Rights Reserved.</h6>
+		<div id="main">
+			<div id="welcome">
+				<h1 id="welchi">欢迎来到萝卜之家！</h1>
+				<h1 id="weleng">Welcome to the Home of Carrot!</h1>
+			</div>
 		</div>
+	</div>
+	<div id="pagefoot">
+		<p id="copyright">Copyright&copy;萝卜&nbsp;2023, All Rights Reserved.</h6>
 	</div>
 </body>
 </html>
