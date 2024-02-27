@@ -14,7 +14,9 @@ var pp=document.getElementById('playpause');
 var next = document.getElementById('next');
 
 var musicId = 0;
-var musicfiles = ["陈奕迅 - 尘大师 Lightly - CHIN UP!", "陈奕迅 - 人啊人 Homo Sapiens - CHIN UP!", "陈奕迅 - 焦焦焦 Hold On A Sec - CHIN UP!", "陈奕迅 - 社交恐惧癌 Don’t Mind Me - CHIN UP!", "陈奕迅 - 空城记 Something Missing - CHIN UP!", "陈奕迅 - 是但求其爱 The Search - CHIN UP!", "陈奕迅 - 盲婚哑嫁 The Code - CHIN UP!", "陈奕迅 - 致明日的舞 A Dance For Tomorrow - CHIN UP!"];
+var musicfiles = ["浮生恋"];
+
+var lyrics = [document.getElementById('lyric_1'), document.getElementById('lyric_2'), document.getElementById('lyric_3'), document.getElementById('lyric_4'), document.getElementById('lyric_5'), document.getElementById('lyric_6'), document.getElementById('lyric_7'), document.getElementById('lyric_8'), document.getElementById('lyric_9'), document.getElementById('lyric_10'), document.getElementById('lyric_11'), document.getElementById('lyric_12'), document.getElementById('lyric_13'), document.getElementById('lyric_14'), document.getElementById('lyric_15'), document.getElementById('lyric_16'), document.getElementById('lyric_17'), document.getElementById('lyric_18'), document.getElementById('lyric_19')];
 
 function playpause()
 {
@@ -61,12 +63,8 @@ function initMusic()
 {
     musicplayer.src = "music/"+musicfiles[musicId]+".mp3";
     musicplayer.load();
-    musicplayer.ondurationchange = function () {
-        songtitle.innerText = musicfiles[musicId].split(" - ")[1];
-        singer.innerText = musicfiles[musicId].split(" - ")[0];
-		album.innerText = musicfiles[musicId].split(" - ")[2];
+	musicplayer.ondurationchange = function () {
         totaltime.innerText = transTime(musicplayer.duration);
-        music.currentTime = 0;
     }
 }
 initMusic();
@@ -102,3 +100,127 @@ next.addEventListener('click', function (event) {
     }
     initAndPlay();
 });
+
+function animationLyric() {
+	if (currenttime.innerHTML == '00:23') {
+		lyrics[0].style.fontSize = "20px";
+		lyrics[0].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:26') {
+		lyrics[0].style.fontSize = "16px";
+		lyrics[0].style.fontFamily = "仿宋";
+		lyrics[1].style.fontSize = "20px";
+		lyrics[1].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:30') {
+		lyrics[1].style.fontSize = "16px";
+		lyrics[1].style.fontFamily = "仿宋";
+		lyrics[2].style.fontSize = "20px";
+		lyrics[2].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:37') {
+		lyrics[2].style.fontSize = "16px";
+		lyrics[2].style.fontFamily = "仿宋";
+		lyrics[3].style.fontSize = "20px";
+		lyrics[3].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:40') {
+		lyrics[3].style.fontSize = "16px";
+		lyrics[3].style.fontFamily = "仿宋";
+		lyrics[4].style.fontSize = "20px";
+		lyrics[4].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:44') {
+		lyrics[4].style.fontSize = "16px";
+		lyrics[4].style.fontFamily = "仿宋";
+		lyrics[5].style.fontSize = "20px";
+		lyrics[5].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '00:51') {
+		lyrics[5].style.fontSize = "16px";
+		lyrics[5].style.fontFamily = "仿宋";
+	}
+	if (currenttime.innerHTML == '01:18') {
+		lyrics[6].style.fontSize = "20px";
+		lyrics[6].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:21') {
+		lyrics[6].style.fontSize = "16px";
+		lyrics[6].style.fontFamily = "仿宋";
+		lyrics[7].style.fontSize = "20px";
+		lyrics[7].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:25') {
+		lyrics[7].style.fontSize = "16px";
+		lyrics[7].style.fontFamily = "仿宋";
+		lyrics[8].style.fontSize = "20px";
+		lyrics[8].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:32') {
+		lyrics[8].style.fontSize = "16px";
+		lyrics[8].style.fontFamily = "仿宋";
+		lyrics[9].style.fontSize = "20px";
+		lyrics[9].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:35') {
+		lyrics[9].style.fontSize = "16px";
+		lyrics[9].style.fontFamily = "仿宋";
+		lyrics[10].style.fontSize = "20px";
+		lyrics[10].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:39') {
+		lyrics[10].style.fontSize = "16px";
+		lyrics[10].style.fontFamily = "仿宋";
+		lyrics[11].style.fontSize = "20px";
+		lyrics[11].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:46') {
+		lyrics[11].style.fontSize = "16px";
+		lyrics[11].style.fontFamily = "仿宋";
+	}
+	if (currenttime.innerHTML == '01:53') {
+		lyrics[12].style.fontSize = "20px";
+		lyrics[12].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '01:59') {
+		lyrics[12].style.fontSize = "16px";
+		lyrics[12].style.fontFamily = "仿宋";
+		lyrics[13].style.fontSize = "20px";
+		lyrics[13].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:03') {
+		lyrics[13].style.fontSize = "16px";
+		lyrics[13].style.fontFamily = "仿宋";
+		lyrics[14].style.fontSize = "20px";
+		lyrics[14].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:06') {
+		lyrics[14].style.fontSize = "16px";
+		lyrics[14].style.fontFamily = "仿宋";
+		lyrics[15].style.fontSize = "20px";
+		lyrics[15].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:07') {
+		lyrics[15].style.fontSize = "16px";
+		lyrics[15].style.fontFamily = "仿宋";
+		lyrics[16].style.fontSize = "20px";
+		lyrics[16].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:12') {
+		lyrics[16].style.fontSize = "16px";
+		lyrics[16].style.fontFamily = "仿宋";
+		lyrics[17].style.fontSize = "20px";
+		lyrics[17].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:14') {
+		lyrics[17].style.fontSize = "16px";
+		lyrics[17].style.fontFamily = "仿宋";
+		lyrics[18].style.fontSize = "20px";
+		lyrics[18].style.fontFamily = "黑体";
+	}
+	if (currenttime.innerHTML == '02:22') {
+		lyrics[18].style.fontSize = "16px";
+		lyrics[18].style.fontFamily = "仿宋";
+	}
+};
+setInterval(animationLyric,100);

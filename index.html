@@ -1,69 +1,304 @@
 <!DOCTYPE html>
 <html lang="cn">
 <head>
-	<title>Carrot Blog</title>
+	<title>Happy 20th Birthday!</title>
 	<base href="index.html" target="_self" />
-	<link href="img/logo.ico" rel="shortcut icon" />
+	<link href="img/icon.ico" rel="shortcut icon" />
 	<link href="css/default.css" rel="stylesheet" type="text/css" />
-	<script src="js/datetime.js"></script>
+	<script src="js/visibility.js"></script>
 	<meta charset="utf-8" />
-	<meta name="author" content="萝卜" />
-	<meta name="descrption" content="该blog收录了萝卜个人的学习笔记及兴趣爱好相关内容" />
-	<meta name="keywords" content="carrot,萝卜" />
+	<meta name="author" content="萝卜(宿永杰)" />
+	<meta name="descrption" content="本网站为庆祝小宝20岁生日而建" />
+	<meta name="keywords" content="birthday,生日,小宝,雨裳,老婆,20岁" />
 </head>
 
-<body>
+<body id="body">
 	<div id="menu">
-		<div id="menu-left">
-			<a id="logo-link" href="index.html" target="_self">
-				<h1 id="logo-title">
-					<img id="logo-img" src="img/logo.jpg" />萝卜之家
-				</h1>
-			</a>
-			<a class="menu-list" href="index.html">首页</a>
-			<a class="menu-list" id="note">笔记</a>
-			<a class="menu-list" id="file">资料</a>
-			<a class="menu-list" id="tool">工具</a>
-			<a class="menu-list" id="chat">群聊</a>
-			<a class="menu-list" id="photo">图片</a>
-			<a class="menu-list" id="music">音乐</a>
-			<a class="menu-list" id="movie">电影</a>
+		<img src="img/birthday_cake.gif" style="height:80px;width:80px" />
+		<div id="menu_main">
+			<a class="menu-list" id="home" href="#" onclick="home_visible()">首页</a>
+			<a class="menu-list" id="poem" href="#" onclick="poem_visible()">诗集</a>
+			<a class="menu-list" id="photo" href="#" onclick="photo_visible()">照片</a>
+			<a class="menu-list" id="music" href="#" onclick="music_visible()">歌曲</a>
+			<a class="menu-list" id="letter" href="#" onclick="letter_visible()">情书</a>
 		</div>
-		<div id="menu-middle">
+		<img src="img/birthday_cake.gif" style="height:80px;width:80px" />
+	</div>
+	<div id="birthday_part">
+		<div class="main" id="birthday_main">
+			<div id="birthday_content">
+				<div id="birthday_cn"><div>祝我最爱的小宝</div><div style="font-size:100px;margin-left:20px;">20岁</div><div>生日快乐！</div></div>
+				<h1 id="birthday_en">Happy 20th Birthday to My Beloved!</h1>
+				<h1 id="birthday_fr">Joyeux 20e Anniversaire à Ma Amoureuse!</h1>
+				<h1 id="birthday_jp">20歳の誕生日おめでとう！</h1>
+			</div>
+		</div>
+	</div>
+	<div id="poem_part">
+		<div class="main" id="poem_main">
+			<div class="poem" id="poem_1">
+				<h1 class="poem_title">侍</h1>
+				<h3 class="poem_time">2023年10月6日</h3>
+				<div class="poem_content">
+					<p>深秋了</p>
+					<p>窗外滴滴答答的</p>
+					<p>好不惹人烦躁</p><br>
+					<p>向外望去</p>
+					<p>望穿细碎的雨幕</p>
+					<p>望穿林立的楼宇</p>
+					<p>望穿熙攘的街道</p>
+					<p>怎么也望不到你的眼眸</p><br>
+					<p>轻阖双眼</p>
+					<p>让思绪静下来</p>
+					<p>又任其奔逸于天地之间</p>
+					<p>寻觅你的踪影</p>
+					<p>茫然四顾</p>
+					<p>仍是不见一点蛛丝马迹</p><br>
+					<p>愈发得烦闷</p>
+					<p>点起一根“女人烟”</p>
+					<p>昏暗的房间里</p>
+					<p>火光轻佻地跳跃舞蹈</p>
+					<p>嘲笑我想你想得痴狂</p><br>
+					<p>我是卑微的爱人</p>
+					<p>同居一城山水</p>
+					<p>只能可憎地在印象里将你亲吻</p>
+					<p>在这清冷季节的日子里</p>
+					<p>蜷缩一隅</p>
+					<p>等待爱和死亡的来临</p>
+				</div>
+			</div>
+			<div class="poem" id="poem_2">
+				<h1 class="poem_title">杭甬之间</h1>
+				<h3 class="poem_time">2023年12月11日</h3>
+				<div class="poem_content">
+					<p>你离开了这座城市</p>
+					<p>我想念你</p>
+					<p>偷偷地抹了眼泪</p>
+					<p>眼泪飘了起来</p>
+					<p>倏地向上飞去</p>
+					<p>一滴&nbsp;两滴&nbsp;千万滴</p>
+					<p>看起来就像天空也在想你</p><br>
+					<p>天空在想你</p>
+					<p>它也在哭泣</p>
+					<p>它的眼泪洒向大地</p>
+					<p>大地沉寂不语</p>
+					<p>洒向河流</p>
+					<p>河流奔腾不息</p>
+					<p>洒向山川</p>
+					<p>山川高耸危立</p>
+					<p>洒向飞鸟</p>
+					<p>飞鸟轻振羽翼</p>
+					<p>洒向鸣虫</p>
+					<p>鸣虫喧扰不已</p><br>
+					<p>洒向树叶</p>
+					<p>树叶随风摇曳</p>
+					<p>洒向浅草</p>
+					<p>浅草垂头叹气</p><br>
+					<p>我对天空产生了妒意</p>
+					<p>不愿分享对你的思忆</p>
+					<p>它也在嫉妒着我</p>
+					<p>它狠狠地朝我哭泣</p>
+					<p>我在天空的眼泪中沐浴</p>
+					<p>分不清</p>
+					<p>哪些是它的思绪</p>
+					<p>哪些是我的忧郁</p>
+				</div>
+			</div>
+			<div class="poem" id="poem_3">
+				<h1 class="poem_title">随想</h1>
+				<h3 class="poem_time">2023年12月19日</h3>
+				<div class="poem_content">
+					<p>夕阳斜照百无聊赖的下午</p>
+					<p>我在纸上一遍遍书写你的名字</p>
+					<p>空白的纸张微微泛黄</p>
+					<p>许是吸收了太多的阳光</p>
+					<p>还有一点木质的清香</p><br>
+					<p>这让我想起了你的长发</p>
+					<p>轻抚发丝</p>
+					<p>指尖传来的触感混合着淡淡的体香</p>
+					<p>激活了神经元</p>
+					<p>随至的是肾上腺素飙升的快感</p><br>
+					<p>我听到我的动脉在隆隆作响</p>
+					<p>全身的引擎一起发动了</p>
+					<p>似乎下一秒就要冲出去</p>
+					<p>跨越时隙</p>
+					<p>追到你的身旁</p><br>
+					<p>但是你不在这世上</p>
+					<p>你在高维空间里沐浴着星光</p>
+					<p>我不曾见过你</p>
+					<p>怎么会记得你的长发</p>
+					<p>就像在梦境一样</p>
+				</div>
+			</div>
+			<div class="poem" id="poem_4">
+				<h1 class="poem_title">春思</h1>
+				<h3 class="poem_time">2024年2月5日</h3>
+				<div class="poem_content">
+					<p>你说今天立春啦</p>
+					<p>春天都来了</p>
+					<p>为什么我还不来？</p>
+					<p>我说你听春风轻声低语</p>
+					<p>你听春雨绵绵不止</p>
+					<p>你听春潮抚摸岸堤</p>
+					<p>你听春燕歌颂生机</p>
+					<p>你看春花绚烂春月清朗</p>
+					<p>你看春枝吐绿春日晴明</p>
+					<p>还有春泥的芳香和春见的甘甜</p>
+					<p>春意盎然间</p>
+					<p>皆是我对你深深的思念</p>
+					<p>我亲爱的人儿</p>
+					<p>请你再耐心等等</p>
+					<p>等到那雨水时节</p>
+					<p>我就会唤着你的名字</p>
+					<p>来到你的身边</p>
+				</div>
+			</div>
+			<div class="poem" id="poem_5">
+				<h1 class="poem_title">欢愉</h1>
+				<h3 class="poem_time">2024年2月14日</h3>
+				<div class="poem_content">
+					<p>星月之下</p>
+					<p>执子之手</p>
+					<p>燃一柱红烛</p>
+					<p>弦音慢颂</p><br>
+					<p>紧挽臂膀</p>
+					<p>轻挑眼眸</p>
+					<p>闭一扇小窗</p>
+					<p>褪下丝裳</p><br>
+					<p>柔声灵动</p>
+					<p>纤体曼舞</p>
+					<p>净一身倦懒</p>
+					<p>香气满廊</p><br>
+					<p>揽卿入榻</p>
+					<p>白肤粉颊</p>
+					<p>卧一床竹席</p>
+					<p>喘息渐起</p><br>
+					<p>四目而对</p>
+					<p>十指微扣</p>
+					<p>说一番密语</p>
+					<p>两情相守</p><br>
+					<p>唇齿依合</p>
+					<p>鱼水交融</p>
+					<p>得一夜欢愉</p>
+					<p>同枕而寝</p><br>
+					<p>春风送暖</p>
+					<p>爱意难收</p>
+					<p>愿一生长厮</p>
+					<p>伴伊左右</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="photo_part">
+		<div class="main" id="photo_main">
+			<img class="photoshop" src="img/photo_1.jpg" />
+			<p class="photo_info">2023年12月6日，宿老师陪小宝看病</p>
+			<img class="photoshop" src="img/photo_2.jpg" />
+			<p class="photo_info">2023年12月10日，宿老师陪小宝回家</p>
+			<img class="photoshop" src="img/photo_3.jpg" />
+			<p class="photo_info">2023年12月18日，在七友刷夜</p>
+			<img class="photoshop" src="img/photo_4.jpg" />
+			<p class="photo_info">2024年12月25日，在小林茶肆学习</p>
+			<img class="photoshop" src="img/photo_5.jpg" />
+			<p class="photo_info">2024年1月19日，放寒假出去玩住民宿</p>
+			<img class="photoshop" src="img/photo_6.jpg" />
+			<p class="photo_info">2023年1月31日，宿老师住院小宝来陪</p>
+			<img class="photoshop" src="img/photo_7.jpg" />
+			<p class="photo_info">2023年2月24日，在天虹购物中心逛街</p>
+		</div>
+	</div>
+	<div id="music_part">
+		<div class="main" id="music_main">
 			<audio id="musicplayer"></audio>
-			<div id="playbuttons">
-				<img id="previous" title="上一首" height="20px" width="20px" src="img/previous.png" />
-				<img id="playpause" title="播放/暂停" height="20px" width="20px" src="img/play.png" onclick="playpause()" />
-				<img id="next" title="下一首" height="20px" width="20px" src="img/next.png" />
+			<div id="music_upper">
+				<div id="music_info">
+					<div id="music_title">
+						<h1>浮生恋</h1>
+					</div>
+					<div id="singer">
+						<h3>演唱：宿永杰</h3>
+					</div>
+					<div id="lyric_author">
+						<h3>作词：宿永杰</h3>
+					</div>
+					<div id="music_author">
+						<h3>作曲：宿永杰</h3>
+					</div>
+					<div id="orchestration_author">
+						<h3>编曲：宿永杰</h3>
+					</div>
+					<div id="mixing_author">
+						<h3>混音：宿永杰</h3>
+					</div>
+				</div>
+				<div id="music_lyric">
+					<div class="lyric_content">
+						<p id="lyric_1">月白良夜风清</p>
+						<p id="lyric_2">望不见钱江潮行</p>
+						<p id="lyric_3">岸堤杨柳燕雀歌舞升平</p>
+						<p id="lyric_4">昏黄灯火残影</p>
+						<p id="lyric_5">映照出少女身形</p>
+						<p id="lyric_6">是谁悄然掳走了小生的心</p><br>
+						<p id="lyric_7">骤雨晚来又晴</p>
+						<p id="lyric_8">遥听得南屏钟音</p>
+						<p id="lyric_9">雷峰夕照少年静待湖亭</p>
+						<p id="lyric_10">万千窗棂温馨</p>
+						<p id="lyric_11">有何人能来一探</p>
+						<p id="lyric_12">这片赤诚热烈纯净的情意</p><br>
+						<p id="lyric_13">是卿&nbsp;是卿</p>
+						<p id="lyric_14">是那如白玉般的容颜</p>
+						<p id="lyric_15">和温婉明媚的善意</p>
+						<p id="lyric_16">令游子沉湎</p>
+						<p id="lyric_17">在浮生流年陷入爱恋</p>
+						<p id="lyric_18">令游子沉湎</p>
+						<p id="lyric_19">在浮生流年陷入爱恋</p>
+					</div>
+				</div>
 			</div>
-			<div id="playbar">
-				<div id="playbarback"></div>
-				<div id="playbarnow"><img id="playanchor" src="img/playanchor.png" /></div>
-			</div>
-			<div id="songtime">
-				<div id="currenttime">00:00</div>
-				<div>&nbsp;/&nbsp;</div>
-				<div id="totaltime">00:00</div>
-			</div>
-			<div id="songinfo">
-				<div id="songtitle">歌名</div></br>
-				<div id="singer">歌手名</div></br>
-				<div id="album">专辑名</div>
+			<div id="music_lower">
+				<div id="playbar">
+					<div id="playbarback"></div>
+					<div id="playbarnow"><img id="playanchor" src="img/playanchor.png" /></div>
+				</div>
+				<div id="playtool">
+					<div id="playtool_left">
+						<div id="currenttime">00:00</div>
+						<div>&nbsp;/&nbsp;</div>
+						<div id="totaltime">00:00</div>
+					</div>
+					<div id="playtool_middle">
+						<img id="previous" title="上一首" height="40px" width="40px" src="img/previous.png" />
+						<img id="playpause" title="播放/暂停" height="40px" width="40px" src="img/play.png" onclick="playpause()" />
+						<img id="next" title="下一首" height="40px" width="40px" src="img/next.png" />
+					</div>
+					<div id="playtool_right">
+						<div><img style="width:40px;height:40px" src="img/playdecoration.svg" /></div>
+					</div>
+				</div>
 			</div>
 			<script src="js/playmusic.js"></script>
 		</div>
-		<div id="menu-right"><a id="datetime" title="查看国际标准时间网站" href="https://www.timeanddate.com/"></a></div>
 	</div>
-	<div id="background">
-		<div id="main">
-			<div id="welcome">
-				<h1 id="welchi">欢迎来到萝卜之家！</h1>
-				<h1 id="weleng">Welcome to the Home of Carrot!</h1>
+	<div id="letter_part">
+		<div class="main" id="letter_main">
+			<div id="letter_content">
+				<p id="calling">To 我最最最爱的小宝：</p>
+				<p>&emsp;&emsp;20岁生日快乐&#127874;！恭喜你又长大了一岁，迈入了人生一个新的十年。已经说过很多次，爱上你之后，只想尽我所能把最好的给你，但没有说过的是，想给你的，不仅要是最好的，也要是最独特的；也已经说过很多次，爱上你之后，总是在想给你的够不够多，但没有说过的是，始终在思考的，还有怎样能给你更大的惊喜。给你准备了一些生日礼物，来庆祝你20岁的到来，希望你能喜欢。</p>
+				<p>&emsp;&emsp;脑海思绪万千，下笔却是无言&#128395;。对你的爱意早已经不能用言语表达，却也一直在努力地通过行动向你证明。喜欢看你吃我炒的菜，喜欢听你向我撒娇，喜欢抱着你帮你捂冰凉的手脚，喜欢牵着你的手一起逛街，喜欢你犯了错委屈巴巴求我原谅的样子，喜欢肆意地亲吻你，喜欢跟你同床共枕，最喜欢的是你对我的喜欢。从未有过一个人给予我如此浓烈的爱意，如此地依赖我，在见不到的时候会一遍遍地说想我，见到的时候又舍不得离开我。你的爱对我而言，是温暖我的太阳，是治愈我的良药，是我疲惫时的软床，是我难过时的爽朗。</p>
+				<p>&emsp;&emsp;我有太多太多想和你一起做的事情&#127880;。每次和你在一起，都希望时间能慢一点、再慢一点，希望没有任何事情打扰我们独处的时光，希望你能一直躺在我怀里，用温润的双眼看着我，而我轻轻地搂着你，抚摸你的脸颊。想带你玩，带你吃，带你喝，最重要的是带你开心，只要你能开心，我再累都值得。你是我的小宝，我的太阳，我是你的萝卜，是你的向日葵，永远都是。</p>
+				<p>&emsp;&emsp;20岁是新的开始，新的一程，是我们相爱后你的第一个生日&#128523;。新的一岁，我们不仅要努力，要像说过的那样成为更好的自己，不被过去的成与败、对与错定义，还要不离不弃，牵着手一起前进，同甘共苦，共同成长。希望20岁的你，能健健康康地生活，快快乐乐地爱我；我也一定会坚定地站在你身边，为你遮风挡雨，驱散阴霾。</p>
+				<p>&emsp;&emsp;生日快乐，我的小宝，我爱你，一生一世地爱你。Je t'aime jusqu'à la fin des temps.&#128150;</p>
+				<p id="letter_name">永远爱你的宿老师</p>
+				<p id="letter_date">2024.2.27</p>
+			</div>
+			<div id="letter_handwriting">
+				<img width="40%" src="img/letter_1.jpg" />
+				<img width="40%" src="img/letter_2.jpg" />
 			</div>
 		</div>
 	</div>
 	<div id="pagefoot">
-		<p id="copyright">Copyright&copy;萝卜&nbsp;2023, All Rights Reserved.</h6>
+		<h6>Copyright©萝卜 2024, All Rights Reserved.</h6>
 	</div>
 </body>
 </html>
