@@ -13,14 +13,14 @@
 
 #menu
 {
-	height:100px;
+	height:6.94vw;
 	width:100%;
 	background-color:#00BFFF;
 	position:fixed;
 	display:flex;
 	align-items:center;
 	justify-content:space-around;
-	border-radius:0 0 20px 20px;
+	border-radius:0 0 1.35vw 1.35vw;
 }
 
 #menu_main
@@ -34,12 +34,12 @@
 
 .menu-list
 {
-	padding:0 50px 0 50px;
+	padding:0 3.4vw 0 3.4vw;
 	height:80%;
-	margin:5px 15px 5px 15px;
-	font-size:2.5vw;
+	margin:0.34vw 1vw 0.34vw 1vw;
+	font-size:2.45vw;
 	color:#FFFFFF;
-	text-shadow:3px 3px 3px #222222;
+	text-shadow:0.2vw 0.2vw 0.2vw #222222;
 	font-family:"等线";
 	font-weight:600;
 	display:flex;
@@ -59,10 +59,10 @@
 
 .main
 {
-	min-height:600px;
+	min-height:41.67vw;
 	min-width:80%;
-	padding-top:125px;
-	padding-bottom:25px;
+	padding-top:8.68vw;
+	padding-bottom:1.73vw;
 	display:flex;
 	flex-direction:column;
 }
@@ -80,11 +80,11 @@
 	text-align:center;
 	width:100%;
 	font-family:"华文行楷";
-	font-size:4.2vw;
-	text-shadow:5px 5px 5px #BBBBBB;
-	padding:20px 0 20px 0;
-	margin:10px 0 10px 0;
-	border-top:solid 5px #9966CC;
+	font-size:4.1vw;
+	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
+	padding:1.35vw 0 1.35vw 0;
+	margin:0.69vw 0 0.69vw 0;
+	border-top:solid 0.34vw #9966CC;
 	display:flex;
 	align-items:center;
 	justify-content:center;
@@ -95,10 +95,10 @@
 	text-align:center;
 	width:100%;
 	font-family:"Consolas";
-	font-size:3.5vw;
-	text-shadow:5px 5px 5px #BBBBBB;
-	padding:20px 0 20px 0;
-	margin:10px 0 10px 0;
+	font-size:3.4vw;
+	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
+	padding:1.35vw 0 1.35vw 0;
+	margin:0.69vw 0 0.69vw 0;
 }
 
 #birthday_jp
@@ -106,11 +106,11 @@
 	text-align:center;
 	width:100%;
 	font-family:"楷体";
-	font-size:4.2vw;
-	text-shadow:5px 5px 5px #BBBBBB;
-	padding:20px 0 20px 0;
-	margin:10px 0 10px 0;
-	border-bottom:solid 5px #9966CC;
+	font-size:4.1vw;
+	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
+	padding:1.35vw 0 1.35vw 0;
+	margin:0.69vw 0 0.69vw 0;
+	border-bottom:solid 0.34vw #9966CC;
 }
 
 #poem_part,#photo_part,#music_part,#letter_part
@@ -129,13 +129,13 @@
 .poem
 {
 	width:100%;
-	height:900px;
-	padding:10px;
-	margin:20px 10px 20px 10px;
+	height:62.5vw;
+	padding:0.69vw;
+	margin:1.35vw 0.69vw 1.35vw 0.69vw;
 	border-style:dashed;
-	border-width:5px;
+	border-width:0.34vw;
 	border-color:#9966CC;
-	border-radius:10px;
+	border-radius:0.69vw;
 	background-color:rgba(245, 245, 245, 0.8);
 }
 
@@ -143,14 +143,14 @@
 {
 	text-align:center;
 	font-family:"华文行楷";
-	padding:8px 0 0 0;
+	padding:0.555vw 0 0 0;
 }
 
 .poem_time
 {
 	text-align:center;
 	font-family:"楷体";
-	padding:10px 0 10px 0;
+	padding:0.69vw 0 0.69vw 0;
 }
 
 .poem_content
@@ -175,12 +175,12 @@
 
 .photoshop
 {
-	padding:10px;
+	padding:0.69vw;
 	border-style:solid;
-	border-width:5px;
+	border-width:0.34vw;
 	border-color:#9966CC;
-	border-radius:20px;
-	margin:10px 200px 10px 200px;
+	border-radius:1.35vw;
+	margin:0.69vw 13.85vw 0.69vw 13.85vw;
 }
 
 .photo_info
@@ -204,12 +204,12 @@
 	width:100%;
 	display:flex;
 	align-items:center;
-	margin:20px 0 20px 0;
+	margin:1.35vw 0 1.35vw 0;
 }
 
 #music_info
 {
-	height:520px;
+	height:36vw;
 	width:50%;
 	display:flex;
 	float:left;
@@ -222,31 +222,31 @@
 {
 	text-align:center;
 	font-family:"黑体";
-	padding:15px 0 15px 0;
+	padding:1vw 0 1vw 0;
 }
 
 #singer, #lyric_author, #music_author, #orchestration_author, #mixing_author
 {
 	text-align:center;
 	font-family:"黑体";
-	padding:20px 0 20px 0;
+	padding:1.35vw 0 1.35vw 0;
 }
 
 #music_lyric
 {
-	height:520px;
+	height:36vw;
 	width:50%;
 	display:flex;
 	align-items:center;
 	flex-direction:column;
 	border-style:solid;
 	border-color:#9966CC;
-	border-width:0 0 0 10px;
+	border-width:0 0 0 0.69vw;
 }
 
 .lyric_content
 {
-	min-width:228px;
+	min-width:15.8vw;
 	height:100%;
 	text-align:center;
 	font-family:"仿宋";
@@ -264,7 +264,7 @@
 	display:flex;
 	align-items:center;
 	flex-direction:column;
-	margin:20px 0 20px 0;
+	margin:1.35vw 0 1.35vw 0;
 }
 
 #playbar
@@ -273,34 +273,34 @@
 	align-items:center;
 	display:flex;
 	position:relative;
-	margin:10px 0 20px 0;
+	margin:0.69vw 0 1.35vw 0;
 }
 
 #playbarback
 {
-	height:5px;
+	height:0.34vw;
 	width:100%;
 	background-color:#BBBBBB;
-	border-radius:2.5px;
+	border-radius:0.17vw;
 }
 
 #playbarnow
 {
-	height:5px;
+	height:0.34vw;
 	width:0;
 	position:absolute;
 	background-color:#008B8B;
 	background-position-x:left;
-	border-radius:2.5px;
+	border-radius:0.17vw;
 }
 
 #playanchor
 {
-	height:30px;
-	width:30px;
+	height:2.08vw;
+	width:2.08vw;
 	position:absolute;
-	left:-15px;
-	top:-15px;
+	left:-1vw;
+	top:-1vw;
 }
 
 #playtool
@@ -344,9 +344,9 @@
 	font-family:"方正硬笔楷书简体";
 	font-size:1.5vw;
 	font-weight:600;
-	margin:0 50px 0 50px;
+	margin:0 3.4vw 0 3.4vw;
 	line-height:2;
-	border-bottom:solid 10px #9966CC;
+	border-bottom:solid 0.69vw #9966CC;
 }
 
 #calling
@@ -366,18 +366,18 @@
 	display:flex;
 	align-items:center;
 	justify-content:space-evenly;
-	margin:50px 0 50px 0;
+	margin:3.4vw 0 3.4vw 0;
 }
 	
 
 #pagefoot
 {
-	height:50px;
+	height:3.4vw;
 	width:100%;
 	background-color:#00BFFF;
 	display:flex;
 	align-items:center;
 	text-align:center;
 	justify-content:space-around;
-	border-radius:20px 20px 0 0;
+	border-radius:1.35vw 1.35vw 0 0;
 }
