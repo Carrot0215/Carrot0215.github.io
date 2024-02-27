@@ -103,123 +103,123 @@ next.addEventListener('click', function (event) {
 
 function animationLyric() {
 	if (currenttime.innerHTML == '00:23') {
-		lyrics[0].style.fontSize = "20px";
+		lyrics[0].style.fontSize = "1.38vw";
 		lyrics[0].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:26') {
-		lyrics[0].style.fontSize = "16px";
+		lyrics[0].style.fontSize = "1.11vw";
 		lyrics[0].style.fontFamily = "仿宋";
-		lyrics[1].style.fontSize = "20px";
+		lyrics[1].style.fontSize = "1.38vw";
 		lyrics[1].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:30') {
-		lyrics[1].style.fontSize = "16px";
+		lyrics[1].style.fontSize = "1.11vw";
 		lyrics[1].style.fontFamily = "仿宋";
-		lyrics[2].style.fontSize = "20px";
+		lyrics[2].style.fontSize = "1.38vw";
 		lyrics[2].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:37') {
-		lyrics[2].style.fontSize = "16px";
+		lyrics[2].style.fontSize = "1.11vw";
 		lyrics[2].style.fontFamily = "仿宋";
-		lyrics[3].style.fontSize = "20px";
+		lyrics[3].style.fontSize = "1.38vw";
 		lyrics[3].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:40') {
-		lyrics[3].style.fontSize = "16px";
+		lyrics[3].style.fontSize = "1.11vw";
 		lyrics[3].style.fontFamily = "仿宋";
-		lyrics[4].style.fontSize = "20px";
+		lyrics[4].style.fontSize = "1.38vw";
 		lyrics[4].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:44') {
-		lyrics[4].style.fontSize = "16px";
+		lyrics[4].style.fontSize = "1.11vw";
 		lyrics[4].style.fontFamily = "仿宋";
-		lyrics[5].style.fontSize = "20px";
+		lyrics[5].style.fontSize = "1.38vw";
 		lyrics[5].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '00:51') {
-		lyrics[5].style.fontSize = "16px";
+		lyrics[5].style.fontSize = "1.11vw";
 		lyrics[5].style.fontFamily = "仿宋";
 	}
 	if (currenttime.innerHTML == '01:18') {
-		lyrics[6].style.fontSize = "20px";
+		lyrics[6].style.fontSize = "1.38vw";
 		lyrics[6].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:21') {
-		lyrics[6].style.fontSize = "16px";
+		lyrics[6].style.fontSize = "1.11vw";
 		lyrics[6].style.fontFamily = "仿宋";
-		lyrics[7].style.fontSize = "20px";
+		lyrics[7].style.fontSize = "1.38vw";
 		lyrics[7].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:25') {
-		lyrics[7].style.fontSize = "16px";
+		lyrics[7].style.fontSize = "1.11vw";
 		lyrics[7].style.fontFamily = "仿宋";
-		lyrics[8].style.fontSize = "20px";
+		lyrics[8].style.fontSize = "1.38vw";
 		lyrics[8].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:32') {
-		lyrics[8].style.fontSize = "16px";
+		lyrics[8].style.fontSize = "1.11vw";
 		lyrics[8].style.fontFamily = "仿宋";
-		lyrics[9].style.fontSize = "20px";
+		lyrics[9].style.fontSize = "1.38vw";
 		lyrics[9].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:35') {
-		lyrics[9].style.fontSize = "16px";
+		lyrics[9].style.fontSize = "1.11vw";
 		lyrics[9].style.fontFamily = "仿宋";
-		lyrics[10].style.fontSize = "20px";
+		lyrics[10].style.fontSize = "1.38vw";
 		lyrics[10].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:39') {
-		lyrics[10].style.fontSize = "16px";
+		lyrics[10].style.fontSize = "1.11vw";
 		lyrics[10].style.fontFamily = "仿宋";
-		lyrics[11].style.fontSize = "20px";
+		lyrics[11].style.fontSize = "1.38vw";
 		lyrics[11].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:46') {
-		lyrics[11].style.fontSize = "16px";
+		lyrics[11].style.fontSize = "1.11vw";
 		lyrics[11].style.fontFamily = "仿宋";
 	}
 	if (currenttime.innerHTML == '01:53') {
-		lyrics[12].style.fontSize = "20px";
+		lyrics[12].style.fontSize = "1.38vw";
 		lyrics[12].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '01:59') {
-		lyrics[12].style.fontSize = "16px";
+		lyrics[12].style.fontSize = "1.11vw";
 		lyrics[12].style.fontFamily = "仿宋";
-		lyrics[13].style.fontSize = "20px";
+		lyrics[13].style.fontSize = "1.38vw";
 		lyrics[13].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:03') {
-		lyrics[13].style.fontSize = "16px";
+		lyrics[13].style.fontSize = "1.11vw";
 		lyrics[13].style.fontFamily = "仿宋";
-		lyrics[14].style.fontSize = "20px";
+		lyrics[14].style.fontSize = "1.38vw";
 		lyrics[14].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:06') {
-		lyrics[14].style.fontSize = "16px";
+		lyrics[14].style.fontSize = "1.11vw";
 		lyrics[14].style.fontFamily = "仿宋";
-		lyrics[15].style.fontSize = "20px";
+		lyrics[15].style.fontSize = "1.38vw";
 		lyrics[15].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:07') {
-		lyrics[15].style.fontSize = "16px";
+		lyrics[15].style.fontSize = "1.11vw";
 		lyrics[15].style.fontFamily = "仿宋";
-		lyrics[16].style.fontSize = "20px";
+		lyrics[16].style.fontSize = "1.38vw";
 		lyrics[16].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:12') {
-		lyrics[16].style.fontSize = "16px";
+		lyrics[16].style.fontSize = "1.11vw";
 		lyrics[16].style.fontFamily = "仿宋";
-		lyrics[17].style.fontSize = "20px";
+		lyrics[17].style.fontSize = "1.38vw";
 		lyrics[17].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:14') {
-		lyrics[17].style.fontSize = "16px";
+		lyrics[17].style.fontSize = "1.11vw";
 		lyrics[17].style.fontFamily = "仿宋";
-		lyrics[18].style.fontSize = "20px";
+		lyrics[18].style.fontSize = "1.38vw";
 		lyrics[18].style.fontFamily = "黑体";
 	}
 	if (currenttime.innerHTML == '02:22') {
-		lyrics[18].style.fontSize = "16px";
+		lyrics[18].style.fontSize = "1.11vw";
 		lyrics[18].style.fontFamily = "仿宋";
 	}
 };

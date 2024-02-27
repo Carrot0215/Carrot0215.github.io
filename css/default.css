@@ -37,7 +37,7 @@
 	padding:0 50px 0 50px;
 	height:80%;
 	margin:5px 15px 5px 15px;
-	font-size:36px;
+	font-size:2.5vw;
 	color:#FFFFFF;
 	text-shadow:3px 3px 3px #222222;
 	font-family:"等线";
@@ -80,7 +80,7 @@
 	text-align:center;
 	width:100%;
 	font-family:"华文行楷";
-	font-size:60px;
+	font-size:4.2vw;
 	text-shadow:5px 5px 5px #BBBBBB;
 	padding:20px 0 20px 0;
 	margin:10px 0 10px 0;
@@ -95,7 +95,7 @@
 	text-align:center;
 	width:100%;
 	font-family:"Consolas";
-	font-size:50px;
+	font-size:3.5vw;
 	text-shadow:5px 5px 5px #BBBBBB;
 	padding:20px 0 20px 0;
 	margin:10px 0 10px 0;
@@ -106,7 +106,7 @@
 	text-align:center;
 	width:100%;
 	font-family:"楷体";
-	font-size:60px;
+	font-size:4.2vw;
 	text-shadow:5px 5px 5px #BBBBBB;
 	padding:20px 0 20px 0;
 	margin:10px 0 10px 0;
@@ -155,11 +155,11 @@
 
 .poem_content
 {
-	min-width:228px;
+	min-width:16vw;
 	height:90%;
 	text-align:center;
 	font-family:"仿宋";
-	font-size:15px;
+	font-size:1vw;
 	font-weight:bold;
 	display:flex;
 	flex-direction:column;
@@ -188,7 +188,7 @@
 	text-align:center;
 	color:#FEFEFA;
 	font-family:"楷体";
-	font-size:20px;
+	font-size:1.35vw;
 	background-color:#FFBF00;
 	width:30%;
 }
@@ -250,7 +250,7 @@
 	height:100%;
 	text-align:center;
 	font-family:"仿宋";
-	font-size:16px;
+	font-size:1.11vw;
 	font-weight:bold;
 	display:flex;
 	flex-direction:column;
@@ -342,7 +342,7 @@
 #letter_content
 {
 	font-family:"方正硬笔楷书简体";
-	font-size:22px;
+	font-size:1.5vw;
 	font-weight:600;
 	margin:0 50px 0 50px;
 	line-height:2;
@@ -352,7 +352,7 @@
 #calling
 {
 	font-family:"华文行楷";
-	font-size:32px;
+	font-size:2.2vw;
 	line-height:1.5;
 }
 
