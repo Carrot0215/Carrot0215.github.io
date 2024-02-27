@@ -82,8 +82,8 @@
 	font-family:"华文行楷";
 	font-size:4.1vw;
 	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
-	padding:1.35vw 0 1.35vw 0;
-	margin:0.69vw 0 0.69vw 0;
+	padding:2.5vh 0 2.5vh 0;
+	margin:1.25vh 0 1.25vh 0;
 	border-top:solid 0.34vw #9966CC;
 	display:flex;
 	align-items:center;
@@ -97,8 +97,8 @@
 	font-family:"Consolas";
 	font-size:3.4vw;
 	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
-	padding:1.35vw 0 1.35vw 0;
-	margin:0.69vw 0 0.69vw 0;
+	padding:2.5vh 0 2.5vh 0;
+	margin:1.25vh 0 1.25vh 0;
 }
 
 #birthday_jp
@@ -108,8 +108,8 @@
 	font-family:"楷体";
 	font-size:4.1vw;
 	text-shadow:0.34vw 0.34vw 0.34vw #BBBBBB;
-	padding:1.35vw 0 1.35vw 0;
-	margin:0.69vw 0 0.69vw 0;
+	padding:2.5vh 0 2.5vh 0;
+	margin:1.25vh 0 1.25vh 0;
 	border-bottom:solid 0.34vw #9966CC;
 }
 
